@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 import sqlite3
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Замените на свой секретный ключ
+app.secret_key = 'hello world'
 
 # Подключение к базе данных SQLite
 def get_db_connection():
